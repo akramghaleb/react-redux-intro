@@ -128,7 +128,7 @@ function createCustomer(fullName, nationalID) {
 function updateName(fullName) {
     return {
         type: 'customer/updateName',
-        payload: { fullName: fullName }
+        payload: fullName
     }
 }
 
